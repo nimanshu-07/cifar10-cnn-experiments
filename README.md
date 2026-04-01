@@ -150,16 +150,16 @@ Suggested images to include in your repo:
 
 
 1. Baseline Model Learning Curve :
-![Baseline Learning Curves](baseline_learning_curve.png)
+   ![Baseline Learning Curves](baseline_learning_curve.png)
 
 2. Large Stride Learning Curve :
-![Large Stride Learning Curves](large_stride_learning_curve.png)
+    ![Large Stride Learning Curves](large_stride_learning_curve.png)
 
 3. Large Kernel Learning Curve :
-![Large Kernel Learning Curves](large_kernel_learning_curve.png)
+    ![Large Kernel Learning Curves](large_kernel_learning_curve.png)
 
 4. L2 Regularized Learning Curve :
-![L2 Regularized Learning Curves](L2_learning_curve.png)
+    ![L2 Regularized Learning Curves](L2_learning_curve.png)
 
 
 ---
@@ -185,16 +185,16 @@ L2 regularization leads to:
 4. reduced overfitting
 
 
-1. Baseline Model :
-![Baseline Weight Distribution](baseline_weight.png)
-![Baseline Bias Distribution](baseline_bias.png)
+Baseline Model :
+  ![Baseline Weight Distribution](baseline_weight.png)
+  ![Baseline Bias Distribution](baseline_bias.png)
 
 
-2. Large Kernel Weight Distribution : 
-![Large Kernel Weight Distribution](large_kernel_weight.png)
+Large Kernel Weight Distribution : 
+  ![Large Kernel Weight Distribution](large_kernel_weight.png)
 
-3. L2 Weight Distribution : 
-![L2 Weight Distribution](L2_weight.png)
+L2 Weight Distribution : 
+  ![L2 Weight Distribution](L2_weight.png)
 
 ---
 
