@@ -149,16 +149,16 @@ The learning curves show the evolution of training and validation accuracy/loss 
 Suggested images to include in your repo:
 
 
-Baseline Model Learning Curve :
+1. Baseline Model Learning Curve :
 ![Baseline Learning Curves](baseline_learning_curve.png)
 
-Large Stride Learning Curve :
+2. Large Stride Learning Curve :
 ![Large Stride Learning Curves](large_stride_learning_curve.png)
 
-Large Kernel Learning Curve :
+3. Large Kernel Learning Curve :
 ![Large Kernel Learning Curves](large_kernel_learning_curve.png)
 
-L2 Regularized Learning Curve :
+4. L2 Regularized Learning Curve :
 ![L2 Regularized Learning Curves](L2_learning_curve.png)
 
 
@@ -185,15 +185,15 @@ L2 regularization leads to:
 4. reduced overfitting
 
 
-Baseline Model :
+1. Baseline Model :
 ![Baseline Weight Distribution](baseline_weight.png)
 ![Baseline Bias Distribution](baseline_bias.png)
 
 
-Large Kernel Weight Distribution : 
+2. Large Kernel Weight Distribution : 
 ![Large Kernel Weight Distribution](large_kernel_weight.png)
 
-L2 Weight Distribution : 
+3. L2 Weight Distribution : 
 ![L2 Weight Distribution](L2_weight.png)
 
 ---
