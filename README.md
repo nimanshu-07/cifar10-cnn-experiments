@@ -148,12 +148,11 @@ The learning curves show the evolution of training and validation accuracy/loss 
 
 Suggested images to include in your repo:
 
-```markdown
+
 ![Baseline Learning Curves](baseline_learning_curve.png)
 ![Large Stride Learning Curves](large_stride_learning_curve.png)
 ![Large Kernel Learning Curves](large_kernel_learning_curve.png)
 ![L2 Regularized Learning Curves](L2_learning_curve.png)
 
-```
 
 ---
