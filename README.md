@@ -148,7 +148,7 @@ The learning curves show the evolution of training and validation accuracy/loss 
 
 Suggested images to include in your repo:
 
-```markdown
+
 
 ![Baseline Learning Curves](baseline_learning_curve.png)
 ![Large Stride Learning Curves](large_stride_learning_curve.png)
@@ -157,3 +157,31 @@ Suggested images to include in your repo:
 
 
 ---
+## Weight and Bias Distribution Analysis
+
+The project also analyzes the learned parameter distributions across layers.
+
+This includes:
+
+1. histogram of convolutional weights
+2. histogram of dense-layer weights
+3. histogram of biases
+4. effect of L2 regularization on parameter magnitude
+
+ 
+Main Insight
+
+L2 regularization leads to:
+
+a. smaller weight magnitudes
+b. smoother parameter distributions
+c. more stable feature activations
+d. reduced overfitting
+
+![Baseline Weight Distribution](assets/baseline_weight_distribution.png)
+![Baseline Bias Distribution](assets/baseline_bias_distribution.png)
+![Large Kernel Weight Distribution](assets/large_kernel_weight_distribution.png)
+![L2 Weight Distribution](assets/l2_weight_distribution.png)
+
+---
+
