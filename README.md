@@ -149,10 +149,16 @@ The learning curves show the evolution of training and validation accuracy/loss 
 Suggested images to include in your repo:
 
 
-
+Baseline Model Learning Curve :
 ![Baseline Learning Curves](baseline_learning_curve.png)
+
+Large Stride Learning Curve :
 ![Large Stride Learning Curves](large_stride_learning_curve.png)
+
+Large Kernel Learning Curve :
 ![Large Kernel Learning Curves](large_kernel_learning_curve.png)
+
+L2 Regularized Learning Curve :
 ![L2 Regularized Learning Curves](L2_learning_curve.png)
 
 
@@ -183,6 +189,7 @@ Baseline Model :
 ![Baseline Weight Distribution](baseline_weight.png)
 ![Baseline Bias Distribution](baseline_bias.png)
 
+
 Large Kernel Weight Distribution : 
 ![Large Kernel Weight Distribution](large_kernel_weight.png)
 
@@ -204,7 +211,7 @@ Most errors occur between visually similar classes, such as:
 This suggests that the model captures coarse shape information well, but can still confuse classes with similar texture or appearance.
 
 
-![Correct and Misclassified Examples](assets/correct_vs_misclassified.png)
+![Correct and Misclassified Examples](predictions_cifar10_L2_0p001.png)
 
 
 ---
@@ -218,9 +225,9 @@ Observations
 2. Middle layers combine simple features into textures and patterns
 3. Deep layers focus on more abstract and discriminative object parts
 
-![Feature Maps Layer 1](assets/feature_maps_conv1.png)
-![Feature Maps Layer 2](assets/feature_maps_conv2.png)
-![Feature Maps Layer 3](assets/feature_maps_conv3.png)
+![Feature Maps Layer 1](featuremaps_conv2d_16_cifar10_L2_0p001.png)
+![Feature Maps Layer 2](featuremaps_conv2d_15_cifar10_L2_0p001.png)
+![Feature Maps Layer 3](featuremaps_conv2d_17_cifar10_L2_0p001.png)
 
 ---
 
