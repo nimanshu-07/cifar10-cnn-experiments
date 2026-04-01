@@ -180,14 +180,73 @@ L2 regularization leads to:
 
 
 Baseline Model :
-![Baseline Weight Distribution](assets/baseline_weight_distribution.png)
-![Baseline Bias Distribution](assets/baseline_bias_distribution.png)
+![Baseline Weight Distribution](baseline_weight.png)
+![Baseline Bias Distribution](baseline_bias.png)
 
 Large Kernel Weight Distribution : 
-![Large Kernel Weight Distribution](assets/large_kernel_weight_distribution.png)
+![Large Kernel Weight Distribution](large_kernel_weight.png)
 
 L2 Weight Distribution : 
-![L2 Weight Distribution](assets/l2_weight_distribution.png)
+![L2 Weight Distribution](L2_weight.png)
 
 ---
 
+## Correct and Misclassified Examples
+
+The project includes a qualitative analysis of predictions by visualizing both correctly classified and misclassified samples.
+
+Main Insight
+
+Most errors occur between visually similar classes, such as:
+1. cat vs dog
+2. automobile vs truck
+
+This suggests that the model captures coarse shape information well, but can still confuse classes with similar texture or appearance.
+
+
+![Correct and Misclassified Examples](assets/correct_vs_misclassified.png)
+
+
+---
+
+## Feature Map Visualization
+
+Intermediate feature maps were visualized to understand how representations evolve across layers.
+
+Observations
+1. Early layers capture color gradients and edges
+2. Middle layers combine simple features into textures and patterns
+3. Deep layers focus on more abstract and discriminative object parts
+
+![Feature Maps Layer 1](assets/feature_maps_conv1.png)
+![Feature Maps Layer 2](assets/feature_maps_conv2.png)
+![Feature Maps Layer 3](assets/feature_maps_conv3.png)
+
+---
+
+##What This Project Demonstrates
+
+This project shows practical understanding of:
+
+1. CNN-based image classification
+2. data normalization and augmentation
+3. receptive field effects of kernel size
+4. the trade-off introduced by stride
+5. regularization and overfitting control
+6. model interpretability through feature maps
+7. performance analysis using both quantitative and qualitative methods
+
+---
+
+## Final Conclusion
+
+This project achieved around 79% validation accuracy on CIFAR-10 using a relatively simple two-block CNN architecture.
+
+The experiments show that:
+
+1. small kernels with stride 1 are the best fit for small natural images like CIFAR-10
+2. data augmentation and normalization are essential for good generalization
+3. L2 regularization improves stability, but must be tuned carefully
+4. the combination of BatchNorm + Dropout + augmentation + moderate regularization gives the best overall trade-off between performance and robustness
+
+---
