@@ -173,14 +173,20 @@ Main Insight
 
 L2 regularization leads to:
 
-a. smaller weight magnitudes
-b. smoother parameter distributions
-c. more stable feature activations
-d. reduced overfitting
+1. smaller weight magnitudes
+2. smoother parameter distributions
+3. more stable feature activations
+4. reduced overfitting
 
+
+Baseline Model :
 ![Baseline Weight Distribution](assets/baseline_weight_distribution.png)
 ![Baseline Bias Distribution](assets/baseline_bias_distribution.png)
+
+Large Kernel Weight Distribution : 
 ![Large Kernel Weight Distribution](assets/large_kernel_weight_distribution.png)
+
+L2 Weight Distribution : 
 ![L2 Weight Distribution](assets/l2_weight_distribution.png)
 
 ---
